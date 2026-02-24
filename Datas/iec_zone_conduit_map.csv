@@ -1,8 +1,8 @@
-Segment_ID,Security_Zone_Name,Trusted_Conduit_ID,authorized_protocols,conduit_risk_rating,boundary_protection_type
-VLAN-20,Nacelle_Primary_Control,CON-NAC-01,Modbus/TCP;S7Comm,High,Industrial_Firewall
-VLAN-21,Yaw_Pitch_Motion_Zone,CON-MOT-04,Profinet;Modbus/TCP,Medium,VLAN_ACL
-VLAN-25,Environmental_Sensor_Zone,CON-ENV-09,MQTT;HTTP,Low,Software_Defined_Perimeter
-VLAN-30,Emergency_Brake_Safety,CON-SAF-02,SafetyNet;EtherCAT,Critical,Air_Gap_Hardware_Data_Diode
-VLAN-40,Power_Conversion_Bus,CON-PWR-12,IEC-61850;Modbus/TCP,High,Stateful_Inspection_Firewall
-VLAN-50,External_Meteorology_Zone,CON-MET-03,FTP;HTTPS,Low,DMZ_Proxy
-VLAN-99,Quarantine_Zone,CON-UNK-00,NONE,Critical,Physical_Isolation
+Segment_ID,Security_Zone_Name,Trusted_Conduit_ID,mapped_firewall_pair,mapped_safety_zone,purdue_level,authorized_protocols,conduit_risk_rating,boundary_protection_type
+VLAN-20,Nacelle_Primary_Control,CON-NAC-01,CORP_TO_CONTROL,TURBINE_SAFETY,Level 2,Modbus/TCP;S7Comm,High,Industrial_Firewall
+VLAN-21,Yaw_Pitch_Motion_Zone,CON-MOT-04,CORP_TO_CONTROL,TURBINE_SAFETY,Level 2,Profinet;Modbus/TCP,Medium,VLAN_ACL
+VLAN-25,Environmental_Sensor_Zone,CON-ENV-09,CONTROL_TO_PROCESS,N_A,Level 1,MQTT;HTTP,Low,Software_Defined_Perimeter
+VLAN-30,Emergency_Brake_Safety,CON-SAF-02,CONTROL_TO_PROCESS,TURBINE_SAFETY,Level 1,SafetyNet;EtherCAT,Critical,Air_Gap_Hardware_Data_Diode
+VLAN-40,Power_Conversion_Bus,CON-PWR-12,EXTERNAL_TO_PROCESS,PRESSURE_RELIEF,Level 1,IEC-61850;Modbus/TCP,High,Stateful_Inspection_Firewall
+VLAN-50,External_Meteorology_Zone,CON-MET-03,EXTERNAL_TO_PROCESS,N_A,Level 2,FTP;HTTPS,Low,DMZ_Proxy
+VLAN-99,Quarantine_Zone,CON-UNK-00,NONE,N_A,N/A,NONE,Critical,Physical_Isolation
