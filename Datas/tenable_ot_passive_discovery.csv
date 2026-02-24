@@ -1,0 +1,101 @@
+sensor_id,observed_ip,detected_mac,proto_detected,plugin_id,plugin_name,cve_id,cvss_score,severity
+TEN-NAC-01,10.10.20.11,00:1A:2B:3C:4D:01,Modbus/TCP,1010376,Schneider Electric Modicon M580 Unauthenticated Config Download,CVE-2021-22779,7.5,High
+TEN-NAC-01,10.10.20.12,00:1A:2B:3C:4D:02,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.13,00:1A:2B:3C:4D:03,Modbus/TCP,152554,Siemens S7-1200 CPU Denial of Service,CVE-2021-37185,7.5,High
+TEN-NAC-01,10.10.20.14,00:1A:2B:3C:4D:04,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.15,00:1A:2B:3C:4D:05,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.55,00:50:56:A1:B2:55,Proprietary-UDP,100844,PLC Stop Command Received,null,7.0,High
+TEN-NAC-01,10.10.20.56,00:50:56:A1:B2:56,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.57,00:50:56:A1:B2:57,Proprietary-UDP,100846,Abnormal PLC Restart Detected,null,6.5,Medium
+TEN-NAC-01,10.10.20.58,00:50:56:A1:B2:58,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.59,00:50:56:A1:B2:59,Proprietary-UDP,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.10,00:AB:CD:EF:11:10,Profinet,51192,SSL Certificate Cannot Be Trusted,null,4.3,Low
+TEN-YAW-02,10.10.21.11,00:AB:CD:EF:11:11,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.12,00:AB:CD:EF:11:12,Profinet,1005822,ABB Totalflow G4 Vulnerable SSH Implementation,CVE-2017-7911,8.6,High
+TEN-YAW-02,10.10.21.13,00:AB:CD:EF:11:13,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.14,00:AB:CD:EF:11:14,Profinet,1009121,Siemens SIMATIC S7-1500 CPU Improper Input Validation,CVE-2022-38773,9.8,Critical
+TEN-ENV-05,10.10.25.101,00:11:22:33:44:01,HTTP,153583,Apache Log4j Remote Code Execution,CVE-2021-44228,10.0,Critical
+TEN-ENV-05,10.10.25.102,00:11:22:33:44:02,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.103,00:11:22:33:44:03,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.104,00:11:22:33:44:04,HTTP,126333,Dropbear SSH Outdated Version,CVE-2018-15599,5.3,Medium
+TEN-ENV-05,10.10.25.105,00:11:22:33:44:05,HTTP,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.10,00:BB:CC:DD:EE:01,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.11,00:BB:CC:DD:EE:02,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.12,00:BB:CC:DD:EE:03,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.13,00:BB:CC:DD:EE:04,SafetyNet,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.50,00:FF:EE:DD:CC:50,IEC-61850,150358,GE Multilin Device Improper Input Validation,CVE-2021-27418,7.8,High
+TEN-PWR-04,10.10.40.51,00:FF:EE:DD:CC:51,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.52,00:FF:EE:DD:CC:52,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.53,00:FF:EE:DD:CC:53,IEC-61850,null,null,null,null,Healthy
+TEN-MET-01,10.10.50.20,00:99:88:77:66:20,FTP,1000450,Insecure FTP Service Detected,null,5.0,Medium
+TEN-MET-01,10.10.50.21,00:99:88:77:66:21,FTP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.16,00:1A:2B:3C:4D:06,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.17,00:1A:2B:3C:4D:07,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.18,00:1A:2B:3C:4D:08,Modbus/TCP,1010376,Schneider Electric Modicon M580 Unauthenticated Config Download,CVE-2021-22779,7.5,High
+TEN-NAC-01,10.10.20.19,00:1A:2B:3C:4D:09,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.20,00:1A:2B:3C:4D:10,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.60,00:50:56:A1:B2:60,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.61,00:50:56:A1:B2:61,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.62,00:50:56:A1:B2:62,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.63,00:50:56:A1:B2:63,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.64,00:50:56:A1:B2:64,Proprietary-UDP,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.15,00:AB:CD:EF:11:15,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.16,00:AB:CD:EF:11:16,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.17,00:AB:CD:EF:11:17,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.18,00:AB:CD:EF:11:18,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.19,00:AB:CD:EF:11:19,Profinet,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.106,00:11:22:33:44:06,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.107,00:11:22:33:44:07,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.108,00:11:22:33:44:08,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.109,00:11:22:33:44:09,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.110,00:11:22:33:44:10,HTTP,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.14,00:BB:CC:DD:EE:05,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.15,00:BB:CC:DD:EE:06,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.16,00:BB:CC:DD:EE:07,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.17,00:BB:CC:DD:EE:08,SafetyNet,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.54,00:FF:EE:DD:CC:54,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.55,00:FF:EE:DD:CC:55,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.56,00:FF:EE:DD:CC:56,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.57,00:FF:EE:DD:CC:57,IEC-61850,null,null,null,null,Healthy
+TEN-MET-01,10.10.50.22,00:99:88:77:66:22,FTP,null,null,null,null,Healthy
+TEN-MET-01,10.10.50.23,00:99:88:77:66:23,FTP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.21,00:1A:2B:3C:4D:11,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.22,00:1A:2B:3C:4D:12,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.23,00:1A:2B:3C:4D:13,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.24,00:1A:2B:3C:4D:14,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.25,00:1A:2B:3C:4D:15,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.65,00:50:56:A1:B2:65,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.66,00:50:56:A1:B2:66,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.67,00:50:56:A1:B2:67,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.68,00:50:56:A1:B2:68,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.69,00:50:56:A1:B2:69,Proprietary-UDP,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.20,00:AB:CD:EF:11:20,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.21,00:AB:CD:EF:11:21,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.22,00:AB:CD:EF:11:22,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.23,00:AB:CD:EF:11:23,Profinet,null,null,null,null,Healthy
+TEN-YAW-02,10.10.21.24,00:AB:CD:EF:11:24,Profinet,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.111,00:11:22:33:44:11,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.112,00:11:22:33:44:12,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.113,00:11:22:33:44:13,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.114,00:11:22:33:44:14,HTTP,null,null,null,null,Healthy
+TEN-ENV-05,10.10.25.115,00:11:22:33:44:15,HTTP,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.18,00:BB:CC:DD:EE:09,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.19,00:BB:CC:DD:EE:10,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.20,00:BB:CC:DD:EE:11,SafetyNet,null,null,null,null,Healthy
+TEN-SAF-03,10.10.30.21,00:BB:CC:DD:EE:12,SafetyNet,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.58,00:FF:EE:DD:CC:58,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.59,00:FF:EE:DD:CC:59,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.60,00:FF:EE:DD:CC:60,IEC-61850,null,null,null,null,Healthy
+TEN-PWR-04,10.10.40.61,00:FF:EE:DD:CC:61,IEC-61850,null,null,null,null,Healthy
+TEN-MET-01,10.10.50.24,00:99:88:77:66:24,FTP,null,null,null,null,Healthy
+TEN-MET-01,10.10.50.25,00:99:88:77:66:25,FTP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.26,00:1A:2B:3C:4D:16,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.27,00:1A:2B:3C:4D:17,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.28,00:1A:2B:3C:4D:18,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.29,00:1A:2B:3C:4D:19,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.30,00:1A:2B:3C:4D:20,Modbus/TCP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.70,00:50:56:A1:B2:70,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.71,00:50:56:A1:B2:71,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.72,00:50:56:A1:B2:72,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.73,00:50:56:A1:B2:73,Proprietary-UDP,null,null,null,null,Healthy
+TEN-NAC-01,10.10.20.74,00:50:56:A1:B2:74,Proprietary-UDP,null,null,null,null,Healthy
